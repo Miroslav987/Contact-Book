@@ -1,0 +1,50 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.bodyImg {
+  width: 100%;
+  height: 790px;
+  /* background-color: rgba(75, 75, 75, 0.541); */
+  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1691652784003611560/9368476CF11779DC22928537B592068DD3A0F836/);
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.allElement {
+  margin-top: 250px;
+}
+
+#inp-all {
+  display: flex;
+  justify-content: start;
+  flex-direction: row-reverse;
+}
+input {
+  margin: 10px;
+}
+
+#btn-all {
+  margin-left: 10px;
+}
+img {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.all-list {
+  margin-top: 250px;
+  display: flex;
+  width: 400px;
+  background-color: rgba(154, 134, 134, 0.759);
+  border-radius: 10px;
+}
+#list p {
+  width: 400px;
+  margin-left: 10px;
+  width: 400px;
+  font-size: 17px;
+  letter-spacing: 0.4px;
+}
